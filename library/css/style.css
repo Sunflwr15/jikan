@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+      * {
+        font-family: "Inconsolata";
+        color: #232323;
+        scroll-behavior: smooth;
+      }
+      body {
+        background: linear-gradient(#fff9e3e6, #fff9e3e6) ,url(../../noise.jpeg) repeat;
+      }
+      .shdw {
+        border-radius: 10px;
+        border: 2px solid #232323;
+      }
+      .shdw-none{
+        border-radius: 10px;
+        border: 2px solid #232323;
+      }
+      .shdw-active{
+        border-radius: 10px;
+        border: 2px solid #232323;
+        box-shadow: #232323 0px 4px 0px 0px;
+      }
+      .shdw:hover {
+        box-shadow: #232323 0px 4px 0px 0px;
+        transition: 0.2s ease;
+      }
+      .secondary{
+          color: #232323;
+      }
+      #list{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+      #list li{
+        justify-self: end;
+          list-style: none;
+          margin-right: 25px;
+      }
+      #list li a{
+          font-weight: 500;
+          color: #232323;
+          text-decoration: underline;
+      }
+      #list li a:hover{
+        text-decoration: underline;
+        font-weight: 1000;
+        transition: 0.3s ease;
+    }
+    .a-hover{
+      text-decoration: none;
+      font-weight: 1000;
+      color: #232323;
+    }
+    .w-80{
+        width: 80%;
+    }
+    .imgscale img:hover{
+      transform: scale(1.2);
+    }
+    .card{
+      background-color: transparent;
+    }
+    .circle{
+      width: 60px;
+      height: 60px;
+      background: #fff5d8;
+      border-radius: 100%;
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      border: 2px solid #232323;
+
+    }
+    .circle:hover{
+      margin-top: 10px;
+        box-shadow: #232323 0px 3px 0px 0px;
+        transition: 0.2s ease;
+    }
